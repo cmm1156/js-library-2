@@ -1,0 +1,255 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* margin-bottom: 20px;
+  margin-top: 20px; */
+}
+
+body, html {
+
+}
+
+body {
+  background-color: #dedddc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+
+}
+
+.topHeader {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+
+  margin-left: 50px;
+  align-items: flex-end;
+
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#title {
+  font-size: 2rem;
+}
+#year {
+  font-size: 1.75rem;
+}
+
+.headerDiv {
+  background-image: url("images/mirror.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center -10vmin;
+  background-repeat: no-repeat;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+
+.titleSubheader {
+  font-size: 3vw;
+  margin-bottom: 15px;
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+.synopsis, .synopsisPart2, .synopsisPart3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 2.5rem;
+  font-family: 'Volkhov', serif;
+  /* margin-bottom: 50vh; */
+
+  border-radius: 20px;
+  background-color: #e6e6cf;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  transition: 2s;
+
+}
+
+.synopsis {
+  /* margin-bottom: 30px; */
+}
+
+
+/* .side1 {
+  display: grid;
+  grid-template-columns: 75px;
+  grid-template-rows: repeat(5, 20%);
+
+  grid-row-gap: 5px;
+  border: solid 5px grey;
+} */
+
+.glide {
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  border-left: solid 2vw gray;
+  border-right: solid 2vw gray;
+
+}
+.glide__slides {
+  display: flex;
+  justify-content: center;
+}
+.glide__arrows, .glide__arrows2, .glide__arrows3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+.glide img {
+  width: 50vw;
+}
+
+.glide2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 99;
+  background-color: black;
+  border-left: solid 2vw gray;
+  border-right: solid 2vw gray;
+}
+.glide2 img {
+  width: 50vw;
+}
+.glide__arrows2 {
+  display: flex;
+  align-content: center;
+  position: relative;
+  align-content: center;
+
+  /* margin-top: -30vh; */
+  transform: translate(0px, -40vh);
+}
+
+.glide3 {
+  text-align: center;
+  z-index: 99;
+  background-color: black;
+  margin-top: 20px;
+  border-left: solid 2vw gray;
+  border-right: solid 2vw gray;
+}
+.glide3 img {
+  width: 50vw;
+}
+.glide__arrows3 {
+  position: relative;
+  transform: translate(0px, -40vh);
+
+}
+
+
+
+.synopsisPart2 {
+  z-index: 99;
+}
+
+#background_video {
+  height: 30vh;
+}
+
+
+#buttonDivA {
+  font-size: 2rem;
+  margin-left: 30px;
+  text-align: center;
+}
+#buttonDivB {
+  font-size: 2rem;
+  margin-left: 30px;
+  text-align: center;
+
+}
+
+
+/* PLACE CARDS BEHIND TEXT AND SLIDESHOW? */
+
+
+
+
+
+
+/* .cardholder {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: black;
+  height:150px;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+
+  z-index: 0;
+}
+.cardholder img {
+  z-index: 0;
+} */
+
+
+.rellax {
+  z-index: 0;
+  position: relative;
+}
+
+.synopsisPart3 div {
+  z-index: 99;
+}
+
+.parallaxCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  z-index: 0;
+}
+
+.parallaxCards img {
+  width: 10vw;
+  z-index: 0;
+}
+
+.posterDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bottomIMDB {
+  text-align: center;
+  font-family: 'Volkhov', serif;
+  margin-bottom: 50px;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+  transition: .25s;
+  font-size: 16pt;
+}
+a:link, a:visited {
+  color: maroon;
+}
+a:hover {
+  color: red;
+}
